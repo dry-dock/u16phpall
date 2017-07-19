@@ -43,12 +43,6 @@ apt-get install -y libxml2-dev     \
                 libmcrypt-dev   \
                 bzip2
 
-# fixes for ubuntu 16.04. create soft links as header files have been
-# renamed
-ln -s /usr/include/tidy/tidybuffio.h /usr/include/tidy/buffio.h
-ln -s /usr/include/tidy/tidyplatform.h /usr/include/tidy/platform.h
-
-
 # Install php-build
 echo "============ Installing php-build =============="
 git clone git://github.com/php-build/php-build.git $HOME/php-build
