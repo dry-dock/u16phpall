@@ -1,8 +1,8 @@
 #!/bin/bash -e
 
-#Build PHP 7.1.7
-echo "============ Building PHP 7.1.7 =============="
-PHP_BUILD_CONFIGURE_OPTS="--with-bz2 --enable-intl" php-build -i development 7.1.7 $HOME/.phpenv/versions/7.1
+#Build PHP 7.1.9
+echo "============ Building PHP 7.1.9 =============="
+PHP_BUILD_CONFIGURE_OPTS="--with-bz2 --enable-intl" php-build -i development 7.1.9 $HOME/.phpenv/versions/7.1
 
 # Setting phpenv to 7.1
 echo "============ Setting phpenv to 7.1 ============"
@@ -37,4 +37,3 @@ printf '\n' | bin/pickle install --with-configure-options=/tmp/pickle-mongodb-op
 rm /tmp/pickle-mongodb-opts
 
 cd /
-
