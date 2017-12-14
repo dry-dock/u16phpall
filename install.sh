@@ -32,7 +32,7 @@ apt-get install -y libxml2-dev     \
                 libpng12-dev    \
                 libxpm-dev      \
                 libfreetype6-dev        \
-                libgd2-xpm-dev  \
+                libgd-dev       \
                 libgmp-dev      \
                 libmhash-dev    \
                 unixodbc-dev    \
