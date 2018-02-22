@@ -56,8 +56,8 @@ ln -s /tmp/pickle/bin/pickle /usr/bin/
 # Install phpenv
 git clone git://github.com/CHH/phpenv.git $HOME/phpenv
 $HOME/phpenv/bin/phpenv-install.sh
-echo 'export PATH=$HOME/.phpenv/bin:$PATH' >> $HOME/.bashrc
-echo 'eval "$(phpenv init -)"' >> $HOME/.bashrc
+echo 'export PATH=$HOME/.phpenv/bin:$PATH' >> /etc/drydock/.env 
+echo 'eval "$(phpenv init -)"' >> /etc/drydock/.env
 rm -rf $HOME/phpenv
 
 # Activate phpenv
