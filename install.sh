@@ -57,13 +57,12 @@ ln -s /tmp/pickle/bin/pickle /usr/bin/
 git clone git://github.com/CHH/phpenv.git $HOME/phpenv
 $HOME/phpenv/bin/phpenv-install.sh
 echo 'export PATH=$HOME/.phpenv/bin:$PATH' >> /etc/drydock/.env
-echo 'export PATH=$HOME/.phpenv/shims:$PATH' >> /etc/drydock/.env
-echo 'eval "$(phpenv init -)"' >> /etc/drydock/.env
 rm -rf $HOME/phpenv
 
 # Activate phpenv
 export PATH=$HOME/.phpenv/bin:$PATH
 #echo "PATH=$HOME/.phpenv/bin:$PATH"
+eval "$(phpenv init -)"
 
 # Install librabbitmq
 echo "============ Installing librabbitmq ============"
