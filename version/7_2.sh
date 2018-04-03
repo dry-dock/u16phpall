@@ -1,5 +1,4 @@
 #!/bin/bash -e
-#!/bin/bash -e
 #Build PHP 7.2.4
 echo "============ Building PHP 7.2.4 =============="
 PHP_BUILD_CONFIGURE_OPTS="--with-bz2 --enable-intl" php-build -i development 7.2.4 $HOME/.phpenv/versions/7.2
