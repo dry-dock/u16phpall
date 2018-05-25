@@ -2,7 +2,7 @@
 
 #Build PHP 7.2.5
 echo "============ Building PHP 7.2.5 =============="
-PHP_BUILD_CONFIGURE_OPTS="--with-bz2 --enable-intl" php-build -i development 7.2.5 $HOME/.phpenv/versions/7.1
+PHP_BUILD_CONFIGURE_OPTS="--with-bz2 --enable-intl" php-build -i development 7.2.5 $HOME/.phpenv/versions/7.2
 
 # Setting phpenv to 7.2.5
 echo "============ Setting phpenv to 7.2 ============"
