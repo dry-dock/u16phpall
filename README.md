@@ -6,6 +6,7 @@ Shippable CI image for PHP on Ubuntu 16.04. Available PHP versions:
   1. PHP 5.6.36
   2. PHP 7.0.30
   3. PHP 7.1.17
+  4. PHP 7.2.5
   
 
 Each PHP version is installed with php-build and managed with phpenv. Several 
