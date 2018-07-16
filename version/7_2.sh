@@ -4,7 +4,7 @@
 echo "============ Building PHP 7.2.7 =============="
 PHP_BUILD_CONFIGURE_OPTS="--with-bz2 --enable-intl" php-build -i development 7.2.7 $HOME/.phpenv/versions/7.2
 
-# Setting phpenv to 7.2.6
+# Setting phpenv to 7.2.7
 echo "============ Setting phpenv to 7.2 ============"
 phpenv rehash
 phpenv global 7.2
