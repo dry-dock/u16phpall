@@ -1,7 +1,7 @@
 #!/bin/bash -e
 
 PHP7_1_VERSION="7.1.22"
-echo "============ Building PHP 7.1.22 =============="
+echo "============ Building $PHP7.1_VERSION  =============="
 PHP_BUILD_CONFIGURE_OPTS="--with-bz2 --enable-intl" php-build -i development "$PHP7_1_VERSION" $HOME/.phpenv/versions/7.1
 
 # Setting phpenv to PHP7.1_VERSION
