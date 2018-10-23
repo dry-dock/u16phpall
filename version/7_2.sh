@@ -3,7 +3,7 @@
 PHP7_2_VERSION="7.2.11"
 echo "============ Building $PHP7.2_VERSION  =============="
 
-PHP_BUILD_CONFIGURE_OPTS="--with-bz2 --enable-intl" php-build -i development "$PHP7_2_VERSION" $HOME/.phpenv/versions/7.2
+PHP_BUILD_CONFIGURE_OPTS="--with-bz2 --enable-intl --with-ldap=/usr/include" php-build -i development "$PHP7_2_VERSION" $HOME/.phpenv/versions/7.2
 
 # Setting phpenv to PHP7.2_VERSION
 echo "============ Setting phpenv to 7.2 ============"
@@ -23,7 +23,6 @@ curl -sS http://getcomposer.org/installer | php
 chmod +x composer.phar
 mv composer.phar $HOME/.phpenv/versions/7.2/bin/composer
 
-sudo apt-get install php7.2-ldap
 #install pickle
 cd /tmp/pickle
 $HOME/.phpenv/versions/7.2/bin/composer install --no-dev
