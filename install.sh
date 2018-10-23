@@ -64,6 +64,9 @@ export PATH=$HOME/.phpenv/bin:$PATH
 #echo "PATH=$HOME/.phpenv/bin:$PATH"
 eval "$(phpenv init -)"
 
+apt-get install libldap2-dev libldb-dev
+ln -s /usr/lib/x86_64-linux-gnu/libldap.so /usr/include/libldap.so && ln -s /usr/lib/x86_64-linux-gnu/liblber.so /usr/include/liblber.so
+
 # Install librabbitmq
 echo "============ Installing librabbitmq ============"
 cd /tmp && wget -nv https://github.com/alanxz/rabbitmq-c/releases/download/v0.7.1/rabbitmq-c-0.7.1.tar.gz
