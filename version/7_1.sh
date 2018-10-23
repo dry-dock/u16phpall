@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-PHP7_1_VERSION="7.1.22"
+PHP7_1_VERSION="7.1.23"
 echo "============ Building $PHP7.1_VERSION  =============="
 PHP_BUILD_CONFIGURE_OPTS="--with-bz2 --enable-intl" php-build -i development "$PHP7_1_VERSION" $HOME/.phpenv/versions/7.1
 
@@ -10,7 +10,7 @@ phpenv rehash
 phpenv global 7.1
 
 # Install phpunit
-PHPUNIT_VERSION="7.3.5"
+PHPUNIT_VERSION="7.4.0"
 echo "============ Installing PHPUnit ============="
 wget -nv https://phar.phpunit.de/phpunit-"$PHPUNIT_VERSION".phar
 chmod +x phpunit-"$PHPUNIT_VERSION".phar
