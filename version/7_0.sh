@@ -1,8 +1,9 @@
 #!/bin/bash -e
 
-PHP7_0_VERSION="7.0.32"
-echo "============ Building $PHP7.0_VERSION  =============="
-PHP_BUILD_CONFIGURE_OPTS="--with-bz2 --enable-intl --with-ldap=/usr/include" php-build -i development "$PHP7_0_VERSION" $HOME/.phpenv/versions/7.0
+
+export PHP_VERSION="7.0.32"
+echo "============ Building PHP version $PHP_VERSION  =============="
+PHP_BUILD_CONFIGURE_OPTS="--with-bz2 --enable-intl --with-ldap=/usr/include" php-build -i development "$PHP_VERSION" $HOME/.phpenv/versions/7.0
 
 # Setting phpenv to PHP7.0_VERSION
 echo "============ Setting phpenv to 7.0 ============"
