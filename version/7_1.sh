@@ -10,7 +10,7 @@ phpenv rehash
 phpenv global 7.1
 
 # Install phpunit
-PHPUNIT_VERSION="7.4.0"
+PHPUNIT_VERSION="7.4.3"
 echo "============ Installing PHPUnit ============="
 wget -nv https://phar.phpunit.de/phpunit-"$PHPUNIT_VERSION".phar
 chmod +x phpunit-"$PHPUNIT_VERSION".phar
