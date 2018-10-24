@@ -2,7 +2,7 @@
 
 
 export PHP_VERSION="7.2.11"
-echo "============ Building PHP verion $PHP_VERSION  =============="
+echo "============ Building PHP version $PHP_VERSION  =============="
 
 PHP_BUILD_CONFIGURE_OPTS="--with-bz2 --enable-intl --with-ldap=/usr/include" php-build -i development "$PHP_VERSION" $HOME/.phpenv/versions/7.2
 
