@@ -33,7 +33,10 @@ available in the image:
       * memcached
       * redis
       * zmq
+      
+u16phpall Docker Hub repo: [drydock/u16phpall](https://hub.docker.com/r/drydock/u16phpall/)
 
-# Services
-This image is built on top of https://github.com/dry-dock/u16all. Please check 
+**Services**
+
+This image is built on top of [u16all](https://github.com/dry-dock/u16all) .Please check 
 there for a list of all the services.
