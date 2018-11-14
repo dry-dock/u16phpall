@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-export PHP_VERSION="7.1.23"
+export PHP_VERSION="7.1.24"
 echo "============ Building PHP version $PHP_VERSION  =============="
 PHP_BUILD_CONFIGURE_OPTS="--with-bz2 --enable-intl --with-ldap=/usr/include" php-build -i development "$PHP_VERSION" $HOME/.phpenv/versions/7.1
 
