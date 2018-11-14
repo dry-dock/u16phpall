@@ -5,8 +5,8 @@ Shippable CI image for PHP on Ubuntu 16.04. Available PHP versions:
 
   1. PHP 5.6.38
   2. PHP 7.0.32
-  3. PHP 7.1.23
-  4. PHP 7.2.11
+  3. PHP 7.1.24
+  4. PHP 7.2.12
   
 
 Each PHP version is installed with php-build and managed with phpenv. Several 
@@ -25,7 +25,7 @@ available in the image:
       * redis
       * zmq
 
-  2. PHP 7.0.32, PHP 7.1.23 and 7.2.11
+  2. PHP 7.0.32, PHP 7.1.24 and 7.2.12
 
       * amqp
       * bzip
