@@ -21,7 +21,7 @@ mv phpunit-"$PHPUNIT_VERSION".phar $HOME/.phpenv/versions/7.3/bin/phpunit
 echo "============ Installing Composer ============"
 curl -sS http://getcomposer.org/installer | php
 chmod +x composer.phar
-mv composer.phar $HOME/.phpenv/versions/7.0/bin/composer
+mv composer.phar $HOME/.phpenv/versions/7.3/bin/composer
 
 #install pickle
 cd /tmp/pickle
