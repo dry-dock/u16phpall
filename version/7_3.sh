@@ -1,4 +1,4 @@
-!/bin/bash -e
+#!/bin/bash -e
 
 
 export PHP_VERSION="7.3.1"
