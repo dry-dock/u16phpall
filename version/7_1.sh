@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-export PHPENV_VERSION_ALIAS="7.2"
+export PHPENV_VERSION_ALIAS="7.1"
 export PHP_VERSION="7.1.25"
 echo "============ Building PHP version $PHP_VERSION  =============="
 PHP_BUILD_CONFIGURE_OPTS="--with-bz2 --enable-intl --with-ldap=/usr/include" php-build -i development "$PHP_VERSION" $HOME/.phpenv/versions/"$PHPENV_VERSION_ALIAS"
