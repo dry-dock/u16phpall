@@ -4,8 +4,8 @@ u16phpall
 Shippable CI image for PHP on Ubuntu 16.04. Available PHP versions:
 
   1. PHP 7.1.26
-  2. PHP 7.2.14
-  3. PHP 7.3.1
+  2. PHP 7.2.15
+  3. PHP 7.3.2
   
   
 
